@@ -16,10 +16,15 @@ ul {
   list-style: none;
 }
 
+button,
+input[type="search"] {
+  appearance: none;
+}
+
 .container {
   display: grid;
   grid-template-columns: clamp(200px, 25vw, 275px) 3fr;
-  grid-template-rows: clamp(150px, 25vh, 200px) 4fr;
+  grid-template-rows: clamp(100px, 20vh, 150px) 4fr;
 }
 
 .sidebar {
@@ -51,10 +56,17 @@ ul {
 }
 
 .header {
-  background-color: aquamarine;
-  padding: 15px;
+  box-shadow: 0 4px 5px rgb(0, 0, 0, 0.2);
+  padding: 15px 40px;
   display: grid;
   grid-template-columns: 2fr 1fr;
+  gap: 20px;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .mini-container {
@@ -80,10 +92,11 @@ ul {
   place-content: center center;
 }
 
-button {
+.main {
 
 }
 
-.main {
+#search {
+  flex-grow: 1;
 
 }
