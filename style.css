@@ -28,6 +28,7 @@ h2 {
 
 h3 {
   font-size: 18px;
+  margin-bottom: 5px;
 }
 
 .container {
@@ -116,7 +117,7 @@ h3 {
 .project-card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, clamp(300px, 25vw, 400px));
-  grid-auto-rows: clamp(200px, 25vw, 300px);
+  grid-auto-rows: clamp(150px, 25vw, 200px);
   gap: 20px;
 }
 
@@ -128,9 +129,9 @@ h3 {
 }
 
 .project-card-text {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
-  gap: 5px;
+  gap: 5px; */
 }
 
 .project-card-buttons {
