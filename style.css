@@ -206,7 +206,7 @@ li.icon {
 .project-card-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, clamp(250px, 25vw, 350px));
-  grid-auto-rows: clamp(150px, 25vw, 200px);
+  grid-auto-rows: 250px;
   gap: 20px;
 }
 
