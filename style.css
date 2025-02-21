@@ -266,3 +266,42 @@ li.icon {
 .announce-text p {
   font-size: 14px;
 }
+
+.trending-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  padding-bottom: 50px;
+  display: grid;
+  grid-template-columns: 60px 1fr;
+  column-gap: 10px;
+  row-gap: 20px;
+}
+
+.trending-image {
+  width: 50px;
+  height: 50px;
+  background-size: cover;
+}
+
+.person-1 {
+  background-image: url(./img/person1.png);
+}
+
+.person-2 {
+  background-image: url(./img/person2.png);
+}
+
+.person-3 {
+  background-image: url(./img/person3.png);
+}
+
+.person-4 {
+  background-image: url(./img/person4.png);
+}
+
+.trending-text {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
