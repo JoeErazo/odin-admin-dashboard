@@ -204,6 +204,8 @@ li.icon {
 .mini-photo {
   width: 40px;
   height: 40px;
+  border: none;
+  background-color: inherit;
   background-image: url(./img/person1.png);
   background-size: cover;
 }
