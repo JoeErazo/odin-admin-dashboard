@@ -338,8 +338,7 @@ li.icon {
 .trending-card {
   background-color: white;
   border-radius: 8px;
-  padding: 30px;
-  padding-bottom: 50px;
+  padding: 50px 30px;
   display: grid;
   grid-template-columns: 60px 1fr;
   column-gap: 10px;
