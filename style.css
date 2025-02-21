@@ -31,8 +31,17 @@ h2 {
   margin-bottom: 15px;
 }
 
+p {
+  color: gray;
+  line-height: 1.2em;
+}
+
 h3 {
   font-size: 18px;
+  margin-bottom: 5px;
+}
+
+h4 {
   margin-bottom: 5px;
 }
 
@@ -235,4 +244,25 @@ li.icon {
 
 .share {
   background-image: url(./icons/share.svg);
+}
+
+.announce-card {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.announce-text {
+  padding: 0 10px 20px 10px;
+}
+
+.announce-text:not(:last-child) {
+  border-bottom: 2px solid gray;
+}
+
+.announce-text p {
+  font-size: 14px;
 }
